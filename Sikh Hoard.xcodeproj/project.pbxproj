@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1859F44E2F317712C78DB21 /* Pods_Sikh_Hoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605A4FF1E67A439D6A4C09AA /* Pods_Sikh_Hoard.framework */; };
+		F71F59252674C496008B2675 /* SikhHoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F71F59232674C496008B2675 /* SikhHoard.xcdatamodeld */; };
+		F761322E2684835300196619 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761322D2684835300196619 /* Product.swift */; };
+		F76132302684837300196619 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761322F2684837300196619 /* HomeViewController.swift */; };
+		F76132322684863F00196619 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76132312684863F00196619 /* HomeCollectionViewCell.swift */; };
 		F788FD51266CEBBB0084860D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788FD50266CEBBB0084860D /* AppDelegate.swift */; };
-		F788FD53266CEBBB0084860D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788FD52266CEBBB0084860D /* FirstViewController.swift */; };
-		F788FD55266CEBBB0084860D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788FD54266CEBBB0084860D /* SecondViewController.swift */; };
 		F788FD58266CEBBC0084860D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F788FD56266CEBBC0084860D /* Main.storyboard */; };
 		F788FD5A266CEBBC0084860D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F788FD59266CEBBC0084860D /* Assets.xcassets */; };
 		F788FD5D266CEBBC0084860D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F788FD5B266CEBBC0084860D /* LaunchScreen.storyboard */; };
+		F7E75E5926948A1A0047B3B2 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E75E5826948A1A0047B3B2 /* CartViewController.swift */; };
+		F7E75E5D26948B240047B3B2 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E75E5C26948B240047B3B2 /* CartTableViewCell.swift */; };
+		F7F5CB26268B42A90015CD49 /* HomeSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F5CB25268B42A90015CD49 /* HomeSelectedViewController.swift */; };
+		F7F67964269AE0DA00478FD3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F67963269AE0DA00478FD3 /* CoreData.framework */; };
+		F7F67966269AE1C200478FD3 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F67965269AE1C200478FD3 /* DatabaseHelper.swift */; };
+		F7F67990269B02E000478FD3 /* Cart+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6798F269B02E000478FD3 /* Cart+CoreDataProperties.swift */; };
+		F7F67991269B02E000478FD3 /* Cart+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6798E269B02E000478FD3 /* Cart+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322480BB7A2CF6EEFD4467DA /* Pods-Sikh Hoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sikh Hoard.release.xcconfig"; path = "Target Support Files/Pods-Sikh Hoard/Pods-Sikh Hoard.release.xcconfig"; sourceTree = "<group>"; };
+		36D69B6BB0EE95EFB0B5C867 /* Pods-Sikh Hoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sikh Hoard.debug.xcconfig"; path = "Target Support Files/Pods-Sikh Hoard/Pods-Sikh Hoard.debug.xcconfig"; sourceTree = "<group>"; };
+		605A4FF1E67A439D6A4C09AA /* Pods_Sikh_Hoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sikh_Hoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71F59242674C496008B2675 /* Sikh Hoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Sikh Hoard.xcdatamodel"; sourceTree = "<group>"; };
+		F761322D2684835300196619 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F761322F2684837300196619 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F76132312684863F00196619 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		F788FD4D266CEBBB0084860D /* Sikh Hoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sikh Hoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F788FD50266CEBBB0084860D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F788FD52266CEBBB0084860D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F788FD54266CEBBB0084860D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F788FD57266CEBBC0084860D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F788FD59266CEBBC0084860D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F788FD5C266CEBBC0084860D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F788FD5E266CEBBC0084860D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E75E5826948A1A0047B3B2 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		F7E75E5C26948B240047B3B2 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		F7F5CB25268B42A90015CD49 /* HomeSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSelectedViewController.swift; sourceTree = "<group>"; };
+		F7F67963269AE0DA00478FD3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F7F67965269AE1C200478FD3 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		F7F6798E269B02E000478FD3 /* Cart+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Cart+CoreDataClass.swift"; path = "/Users/kulpreetsingh/Desktop/SikhHoard/Sikh Hoard/Cart+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		F7F6798F269B02E000478FD3 /* Cart+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Cart+CoreDataProperties.swift"; path = "/Users/kulpreetsingh/Desktop/SikhHoard/Sikh Hoard/Cart+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F67964269AE0DA00478FD3 /* CoreData.framework in Frameworks */,
+				E1859F44E2F317712C78DB21 /* Pods_Sikh_Hoard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C57E9A276E60D8F8A6ED287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7F67963269AE0DA00478FD3 /* CoreData.framework */,
+				605A4FF1E67A439D6A4C09AA /* Pods_Sikh_Hoard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3AA3501271DAC45A3C1DC35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36D69B6BB0EE95EFB0B5C867 /* Pods-Sikh Hoard.debug.xcconfig */,
+				322480BB7A2CF6EEFD4467DA /* Pods-Sikh Hoard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F788FD44266CEBBB0084860D = {
 			isa = PBXGroup;
 			children = (
 				F788FD4F266CEBBB0084860D /* Sikh Hoard */,
 				F788FD4E266CEBBB0084860D /* Products */,
+				F3AA3501271DAC45A3C1DC35 /* Pods */,
+				0C57E9A276E60D8F8A6ED287 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +101,19 @@
 			isa = PBXGroup;
 			children = (
 				F788FD50266CEBBB0084860D /* AppDelegate.swift */,
-				F788FD52266CEBBB0084860D /* FirstViewController.swift */,
-				F788FD54266CEBBB0084860D /* SecondViewController.swift */,
+				F761322F2684837300196619 /* HomeViewController.swift */,
+				F76132312684863F00196619 /* HomeCollectionViewCell.swift */,
+				F7F5CB25268B42A90015CD49 /* HomeSelectedViewController.swift */,
+				F7E75E5826948A1A0047B3B2 /* CartViewController.swift */,
+				F7E75E5C26948B240047B3B2 /* CartTableViewCell.swift */,
+				F761322D2684835300196619 /* Product.swift */,
+				F7F67965269AE1C200478FD3 /* DatabaseHelper.swift */,
+				F7F6798E269B02E000478FD3 /* Cart+CoreDataClass.swift */,
+				F7F6798F269B02E000478FD3 /* Cart+CoreDataProperties.swift */,
 				F788FD56266CEBBC0084860D /* Main.storyboard */,
 				F788FD59266CEBBC0084860D /* Assets.xcassets */,
 				F788FD5B266CEBBC0084860D /* LaunchScreen.storyboard */,
+				F71F59232674C496008B2675 /* SikhHoard.xcdatamodeld */,
 				F788FD5E266CEBBC0084860D /* Info.plist */,
 			);
 			path = "Sikh Hoard";
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F788FD61266CEBBC0084860D /* Build configuration list for PBXNativeTarget "Sikh Hoard" */;
 			buildPhases = (
+				F363BF49C104E77E99AB83D5 /* [CP] Check Pods Manifest.lock */,
 				F788FD49266CEBBB0084860D /* Sources */,
 				F788FD4A266CEBBB0084860D /* Frameworks */,
 				F788FD4B266CEBBB0084860D /* Resources */,
+				65A2548086D9F30D05222642 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +153,7 @@
 				TargetAttributes = {
 					F788FD4C266CEBBB0084860D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -133,14 +188,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65A2548086D9F30D05222642 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sikh Hoard/Pods-Sikh Hoard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sikh Hoard/Pods-Sikh Hoard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sikh Hoard/Pods-Sikh Hoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F363BF49C104E77E99AB83D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sikh Hoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F788FD49266CEBBB0084860D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F788FD55266CEBBB0084860D /* SecondViewController.swift in Sources */,
+				F7F5CB26268B42A90015CD49 /* HomeSelectedViewController.swift in Sources */,
+				F7F67991269B02E000478FD3 /* Cart+CoreDataClass.swift in Sources */,
+				F7F67990269B02E000478FD3 /* Cart+CoreDataProperties.swift in Sources */,
+				F76132322684863F00196619 /* HomeCollectionViewCell.swift in Sources */,
+				F7F67966269AE1C200478FD3 /* DatabaseHelper.swift in Sources */,
+				F7E75E5926948A1A0047B3B2 /* CartViewController.swift in Sources */,
+				F761322E2684835300196619 /* Product.swift in Sources */,
+				F71F59252674C496008B2675 /* SikhHoard.xcdatamodeld in Sources */,
 				F788FD51266CEBBB0084860D /* AppDelegate.swift in Sources */,
-				F788FD53266CEBBB0084860D /* FirstViewController.swift in Sources */,
+				F76132302684837300196619 /* HomeViewController.swift in Sources */,
+				F7E75E5D26948B240047B3B2 /* CartTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,36 +389,40 @@
 		};
 		F788FD62266CEBBC0084860D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D69B6BB0EE95EFB0B5C867 /* Pods-Sikh Hoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9283RP2W98;
 				INFOPLIST_FILE = "Sikh Hoard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kulpreet.Sikh-Hoard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F788FD63266CEBBC0084860D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322480BB7A2CF6EEFD4467DA /* Pods-Sikh Hoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9283RP2W98;
 				INFOPLIST_FILE = "Sikh Hoard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kulpreet.Sikh-Hoard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -340,6 +449,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F71F59232674C496008B2675 /* SikhHoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F71F59242674C496008B2675 /* Sikh Hoard.xcdatamodel */,
+			);
+			currentVersion = F71F59242674C496008B2675 /* Sikh Hoard.xcdatamodel */;
+			path = SikhHoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F788FD45266CEBBB0084860D /* Project object */;
 }
